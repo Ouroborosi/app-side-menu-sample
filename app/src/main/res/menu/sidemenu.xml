@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main_fragment"
+            android:icon="@drawable/smartphone"
+            android:title="Player" />
+
+        <item
+            android:title="Pokemons"
+            android:icon="@drawable/egg">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_pikachu_fragment"
+                        android:icon="@drawable/pikachu"
+                        android:title="Pikachu" />
+
+                    <item
+                        android:id="@+id/nav_snorlax_fragment"
+                        android:icon="@drawable/snorlax"
+                        android:title="Snorlax" />
+                    <item
+                        android:id="@+id/nav_jigglypuff_fragment"
+                        android:icon="@drawable/jigglypuff"
+                        android:title="Jigglypuff" />
+                    <item
+                        android:id="@+id/nav_psyduck_fragment"
+                        android:icon="@drawable/psyduck"
+                        android:title="Psyduck" />
+                    <item
+                        android:id="@+id/nav_eevee_fragment"
+                        android:icon="@drawable/eevee"
+                        android:title="Eevee" />
+                    <item
+                        android:id="@+id/nav_weedle_fragment"
+                        android:icon="@drawable/weedle"
+                        android:title="Weedle" />
+                </group>
+            </menu>
+        </item>
+
+        <item
+            android:title="Gears"
+            android:icon="@drawable/backpack" >
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_pokeball_fragment"
+                        android:icon="@drawable/pokeball"
+                        android:title="Pokeball" />
+
+                    <item
+                        android:id="@+id/nav_ultra_ball_fragment"
+                        android:icon="@drawable/ultra_ball"
+                        android:title="Ultra Ball" />
+                    <item
+                        android:id="@+id/nav_super_ball_fragment"
+                        android:icon="@drawable/superball"
+                        android:title="Super Ball" />
+
+                </group>
+            </menu>
+        </item>
+
+
+    </group>
+</menu>

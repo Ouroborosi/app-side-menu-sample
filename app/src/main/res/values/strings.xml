@@ -1,0 +1,38 @@
+<resources>
+    <!-- app base -->
+    <string name="app_name">Pokemons Side Menu Demo</string>
+
+    <!-- nav -->
+    <string name="nav_header_title">Pokemons</string>
+    <string name="title_activity_sidemenu">Side Menu Demo</string>
+
+    <string name="navigation_drawer_open">Open menu</string>
+    <string name="navigation_drawer_close">Close menu</string>
+
+    <!-- fragment pikchu -->
+    <string name="pikachu">Pikachu!</string>
+
+    <!-- fragment snorlax -->
+    <string name="snorlax">Snorlax!</string>
+
+    <!-- fragment jigglypuff -->
+    <string name="jigglypuff">Jigglypuff!</string>
+
+    <!-- fragment psyduck -->
+    <string name="psyduck">Psyduck!</string>
+
+    <!-- fragment eevee -->
+    <string name="eevee">Eevee!</string>
+
+    <!-- fragment weedle -->
+    <string name="weedle">Weedle!</string>
+
+    <!-- fragment pokeball -->
+    <string name="pokeball">Pokeball!</string>
+
+    <!-- fragment ultraball-->
+    <string name="ultraBall">Ultra Ball!</string>
+
+    <!-- fragment superball -->
+    <string name="superBall">Super Ball!</string>
+</resources>
